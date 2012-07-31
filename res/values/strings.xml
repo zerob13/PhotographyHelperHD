@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">胶片摄影小助手</string>
+<string name="DOFcal">景深计算器</string>
+<string name="Meter">测光查询</string>
+<string name="StopTime">定时器</string>
+<string name="WashTime">冲洗时间查询</string>
+<string name="About">更多...</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/tab_1"
+xmlns:umadsdk="http://schemas.android.com/apk/res/in.zerob13.PhotographyHelper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<AbsoluteLayout
+android:id="@+id/widget104"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget105"
+android:text="ISO"
+android:layout_x="6px"
+android:layout_y="9px"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="36px">
+</TextView>
+<TextView
+android:id="@+id/widget106"
+android:text="天气情况"
+android:layout_x="6px"
+android:layout_y="66px"
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="36px">
+</TextView>
+<TextView
+android:id="@+id/widget109"
+android:text="拍摄对象"
+android:layout_x="6px"
+android:layout_y="121px"
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="36px">
+</TextView>
+<TextView
+android:id="@+id/widget101"
+android:text="光圈大小(f)"
+android:layout_x="6px"
+android:layout_y="192px"
+android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="36px">
+</TextView>
+<TextView
+android:id="@+id/widget112"
+android:text="推荐快门："
+android:layout_x="0px"
+android:layout_y="245px"
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="50px">
+</TextView>
+	<net.youmi.android.AdView
+   android:id="@+id/adMeter"  
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content"
+   umadsdk:textColor="#ffffff" 
+   umadsdk:backgroundTransparent="155"
+   umadsdk:backgroundColor="#808080"    
+   android:layout_x="0px"
+android:layout_y="1100px"
+   />
+	<Spinner android:id="@+id/widget107" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="14dip"></Spinner>
+	<Spinner android:id="@+id/widget108" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="69dip"></Spinner>
+	<Spinner android:id="@+id/widget110" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="124dip"></Spinner>
+	<Spinner android:id="@+id/widget111" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="191dip"></Spinner> 
+</AbsoluteLayout>
+</ScrollView>

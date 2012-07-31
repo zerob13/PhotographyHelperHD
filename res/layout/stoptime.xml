@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:umadsdk="http://schemas.android.com/apk/res/in.zerob13.PhotographyHelper"
+android:id="@+id/tab_demo_tv2"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<net.youmi.android.AdView
+   android:id="@+id/adStop"  
+   android:layout_width="wrap_content"  
+   android:layout_height="wrap_content"
+   umadsdk:textColor="#ffffff" 
+   umadsdk:backgroundTransparent="155"
+   umadsdk:backgroundColor="#808080"    
+   android:layout_x="0px"
+android:layout_y="1100px"
+   />
+	<Button android:textSize="50px" android:layout_width="wrap_content" android:text="点我开始" android:layout_height="wrap_content" android:id="@+id/widget30" android:layout_x="258dip" android:layout_y="262dip"></Button>
+	<TextView android:text="TextView" android:visibility="invisible" android:id="@+id/widget35" android:textSize="80px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="218dip" android:layout_y="465dip"></TextView>
+	<in.zerob13.PhotographyHelper.NumberPicker android:id="@+id/widget40" android:layout_height="160px" android:layout_x="119dip" android:layout_y="33dip" android:layout_width="90px"></in.zerob13.PhotographyHelper.NumberPicker>
+	<TextView android:text="分钟" android:id="@+id/widget42" android:textSize="60px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="271dip" android:layout_y="60dip"></TextView>
+	<TextView android:text="秒" android:id="@+id/widget43" android:textSize="60px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="621dip" android:layout_y="57dip"></TextView>
+	<in.zerob13.PhotographyHelper.NumberPicker android:id="@+id/widget41" android:layout_height="160px" android:layout_x="504dip" android:layout_y="34dip" android:layout_width="90px"></in.zerob13.PhotographyHelper.NumberPicker> 
+</AbsoluteLayout>
+

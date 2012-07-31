@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget218"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/in.zerob13.PhotographyHelper">
+	<Button android:textSize="15px" android:id="@+id/widget63"
+		android:layout_width="100px" android:text="Button"
+		android:layout_height="100px" android:background="@drawable/washtimeb"
+		android:layout_x="141dip" android:layout_y="260dip"></Button>
+	<Button android:textSize="15px" android:id="@+id/widget61"
+		android:layout_width="100px" android:text="Button"
+		android:layout_height="100px" android:background="@drawable/dofcalb"
+		android:layout_x="553dip" android:layout_y="260dip"></Button>
+	<Button android:textSize="15px" android:id="@+id/widget65"
+		android:layout_width="100px" android:text="Button"
+		android:layout_height="100px" android:background="@drawable/stoptimeb"
+		android:layout_x="141dip" android:layout_y="468dip"></Button>
+	<Button android:textSize="15px" android:id="@+id/widget64"
+		android:layout_width="100px" android:text="Button"
+		android:layout_height="100px" android:background="@drawable/meterb"
+		android:layout_x="553dip" android:layout_y="468dip"></Button>
+	<Button android:textSize="15px" android:id="@+id/widget66"
+		android:layout_width="100px" android:text="Button"
+		android:layout_height="100px" android:background="@drawable/aboutb"
+		android:layout_x="141dip" android:layout_y="742dip"></Button>
+	<net.youmi.android.AdView android:id="@+id/adM"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		umadsdk:textColor="#ffffff" umadsdk:backgroundTransparent="155"
+		umadsdk:backgroundColor="#808080" android:layout_x="0px"
+		android:layout_y="1100px" />
+</AbsoluteLayout>

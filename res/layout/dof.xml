@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/tab_demo_tv4"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<AbsoluteLayout
+android:id="@+id/widget128"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<Spinner android:id="@+id/widget129" android:layout_width="187px" android:layout_height="48px" android:layout_x="425dip" android:layout_y="12dip"></Spinner>
+<TextView android:text="景深" android:id="@+id/widget137" android:layout_x="23dip" android:layout_y="359dip" android:textSize="36px" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+<TextView android:text="光圈大小(f)：" android:id="@+id/widget133" android:layout_x="403dip" android:layout_y="91dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="26px"></TextView>
+<TextView android:text="对焦距离(mm)：" android:id="@+id/widget135" android:layout_x="88dip" android:layout_y="178dip" android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="26px"></TextView>
+<Button android:text="点我计算" android:id="@+id/widget95" android:layout_x="281dip" android:layout_y="254dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="56px"></Button>
+<TextView android:text="感光原件类型：" android:id="@+id/widget130" android:layout_x="86dip" android:layout_y="16dip" android:layout_height="match_parent" android:layout_width="wrap_content" android:textSize="26px"></TextView>
+<TextView android:text="焦距(mm)：" android:id="@+id/widget131" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_x="93dip" android:layout_y="100dip" android:textSize="26px"></TextView>
+<EditText android:id="@+id/widget132" android:text="200" android:layout_x="237dip" android:layout_y="94dip" android:layout_height="match_parent" android:textSize="26px" android:layout_width="120dip"></EditText>
+<EditText android:id="@+id/widget136" android:layout_width="200px" android:text="1000" android:layout_height="wrap_content" android:layout_x="293dip" android:layout_y="174dip" android:textSize="26px"></EditText>
+<EditText android:textSize="26px" android:id="@+id/widget134" android:layout_width="75px" android:text="22" android:layout_height="match_parent" android:layout_x="558dip" android:layout_y="93dip"></EditText>
+</AbsoluteLayout>
+</ScrollView>
+
