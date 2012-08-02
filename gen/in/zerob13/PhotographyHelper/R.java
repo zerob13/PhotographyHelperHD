@@ -9,34 +9,6 @@ package in.zerob13.PhotographyHelper;
 
 public final class R {
     public static final class attr {
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int backgroundColor=0x7f010000;
-        /** 字体颜色 
-         <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int backgroundTransparent=0x7f010002;
-        /** 广告条的纯色背景色 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColor=0x7f010001;
     }
     public static final class drawable {
         public static final int about=0x7f020000;
@@ -78,59 +50,51 @@ containing a value of this type.
         public static final int washtimedown=0x7f020024;
     }
     public static final class id {
-        public static final int adM=0x7f050015;
-        public static final int adMeter=0x7f05001d;
-        public static final int adStop=0x7f050027;
-        public static final int adView=0x7f050001;
-        public static final int decrement=0x7f050024;
-        public static final int increment=0x7f050022;
-        public static final int pref_num_picker=0x7f050025;
-        public static final int tab_1=0x7f050016;
-        public static final int tab_demo_tv2=0x7f050026;
-        public static final int tab_demo_tv3=0x7f050000;
-        public static final int tab_demo_tv4=0x7f050003;
-        public static final int tab_demo_tv5=0x7f05002e;
-        public static final int timepicker_input=0x7f050023;
-        public static final int widget101=0x7f05001b;
-        public static final int widget104=0x7f050017;
-        public static final int widget105=0x7f050018;
-        public static final int widget106=0x7f050019;
-        public static final int widget107=0x7f05001e;
-        public static final int widget108=0x7f05001f;
-        public static final int widget109=0x7f05001a;
-        public static final int widget110=0x7f050020;
-        public static final int widget111=0x7f050021;
-        public static final int widget112=0x7f05001c;
-        public static final int widget128=0x7f050004;
-        public static final int widget129=0x7f050005;
-        public static final int widget130=0x7f05000a;
-        public static final int widget131=0x7f05000b;
-        public static final int widget132=0x7f05000c;
-        public static final int widget133=0x7f050007;
-        public static final int widget134=0x7f05000e;
-        public static final int widget135=0x7f050008;
-        public static final int widget136=0x7f05000d;
-        public static final int widget137=0x7f050006;
-        public static final int widget218=0x7f05000f;
-        public static final int widget30=0x7f050028;
-        public static final int widget35=0x7f050029;
-        public static final int widget40=0x7f05002a;
-        public static final int widget41=0x7f05002d;
-        public static final int widget42=0x7f05002b;
-        public static final int widget43=0x7f05002c;
-        public static final int widget57=0x7f050002;
-        public static final int widget61=0x7f050011;
-        public static final int widget63=0x7f050010;
-        public static final int widget64=0x7f050013;
-        public static final int widget65=0x7f050012;
-        public static final int widget66=0x7f050014;
-        public static final int widget70=0x7f050030;
-        public static final int widget71=0x7f050033;
-        public static final int widget72=0x7f050031;
-        public static final int widget73=0x7f050032;
-        public static final int widget74=0x7f050034;
-        public static final int widget79=0x7f05002f;
-        public static final int widget95=0x7f050009;
+        public static final int decrement=0x7f05001f;
+        public static final int increment=0x7f05001d;
+        public static final int pref_num_picker=0x7f050020;
+        public static final int tab_1=0x7f050012;
+        public static final int tab_demo_tv4=0x7f050001;
+        public static final int tab_demo_tv5=0x7f050027;
+        public static final int timepicker_input=0x7f05001e;
+        public static final int widget101=0x7f050017;
+        public static final int widget104=0x7f050013;
+        public static final int widget105=0x7f050014;
+        public static final int widget106=0x7f050015;
+        public static final int widget107=0x7f050019;
+        public static final int widget108=0x7f05001a;
+        public static final int widget109=0x7f050016;
+        public static final int widget110=0x7f05001b;
+        public static final int widget111=0x7f05001c;
+        public static final int widget112=0x7f050018;
+        public static final int widget128=0x7f050002;
+        public static final int widget129=0x7f050003;
+        public static final int widget130=0x7f050008;
+        public static final int widget131=0x7f050009;
+        public static final int widget132=0x7f05000a;
+        public static final int widget133=0x7f050005;
+        public static final int widget134=0x7f05000c;
+        public static final int widget135=0x7f050006;
+        public static final int widget136=0x7f05000b;
+        public static final int widget137=0x7f050004;
+        public static final int widget30=0x7f050026;
+        public static final int widget35=0x7f050021;
+        public static final int widget40=0x7f050022;
+        public static final int widget41=0x7f050024;
+        public static final int widget42=0x7f050023;
+        public static final int widget43=0x7f050025;
+        public static final int widget57=0x7f050000;
+        public static final int widget61=0x7f05000e;
+        public static final int widget63=0x7f05000d;
+        public static final int widget64=0x7f050010;
+        public static final int widget65=0x7f05000f;
+        public static final int widget66=0x7f050011;
+        public static final int widget70=0x7f050029;
+        public static final int widget71=0x7f050028;
+        public static final int widget72=0x7f05002a;
+        public static final int widget73=0x7f05002b;
+        public static final int widget74=0x7f05002c;
+        public static final int widget95=0x7f050007;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -151,71 +115,4 @@ containing a value of this type.
         public static final int WashTime=0x7f040004;
         public static final int app_name=0x7f040000;
     }
-    public static final class styleable {
-        /** 背景透明度 
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #net_youmi_android_AdView_backgroundColor in.zerob13.PhotographyHelper:backgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #net_youmi_android_AdView_backgroundTransparent in.zerob13.PhotographyHelper:backgroundTransparent}</code></td><td>字体颜色 </td></tr>
-           <tr><td><code>{@link #net_youmi_android_AdView_textColor in.zerob13.PhotographyHelper:textColor}</code></td><td>广告条的纯色背景色 </td></tr>
-           </table>
-           @see #net_youmi_android_AdView_backgroundColor
-           @see #net_youmi_android_AdView_backgroundTransparent
-           @see #net_youmi_android_AdView_textColor
-         */
-        public static final int[] net_youmi_android_AdView = {
-            0x7f010000, 0x7f010001, 0x7f010002
-        };
-        /**
-          <p>This symbol is the offset where the {@link in.zerob13.PhotographyHelper.R.attr#backgroundColor}
-          attribute's value can be found in the {@link #net_youmi_android_AdView} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name android:backgroundColor
-        */
-        public static final int net_youmi_android_AdView_backgroundColor = 0;
-        /**
-          <p>
-          @attr description
-          字体颜色 
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android:backgroundTransparent
-        */
-        public static final int net_youmi_android_AdView_backgroundTransparent = 2;
-        /**
-          <p>
-          @attr description
-          广告条的纯色背景色 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name android:textColor
-        */
-        public static final int net_youmi_android_AdView_textColor = 1;
-    };
 }

@@ -1,19 +1,16 @@
 package in.zerob13.PhotographyHelper;
 
-import net.youmi.android.AdListener;
-import net.youmi.android.AdManager;
-import net.youmi.android.AdView;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemSelectedListener;
 
-public class Meter extends Activity   implements AdListener{
+public class Meter extends Activity   {
 	/** Called when the activity is first created. */
 	private String[] iso = { "40", "100", "200", "400" };
 	private String[] weather = { "阴晦天气", "阴晴天气", "薄云遮日", "光亮日光" };
@@ -33,14 +30,10 @@ public class Meter extends Activity   implements AdListener{
 	Spinner T1S3;
 	Spinner lsa;
 	TextView lst;
-	AdView adView;
+
 	int[] pro = new int[4];
 	ArrayAdapter<String> adapter;
-	static{
-	   	  
-		AdManager.init("50b2b2e52b464a6e ", "0149a2ee96a8fad1 ", 40, false,"0.8beta");  
-    	
-    }
+
 	void setls() {
 		if (lsa == null) {
 			lsa = (Spinner) findViewById(R.id.widget111);
@@ -83,8 +76,7 @@ public class Meter extends Activity   implements AdListener{
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.meter);
-		adView=(AdView)findViewById(R.id.adMeter);
-        adView.setAdListener(this);
+	
 		pro[0] = pro[1] = pro[2] = pro[3] = 1;
 		lsa = (Spinner) findViewById(R.id.widget111);
 		lst = (TextView) findViewById(R.id.widget112);
@@ -217,15 +209,4 @@ public class Meter extends Activity   implements AdListener{
 
 	}
 
-	@Override
-	public void onConnectFailed() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void onReceiveAd() {
-		// TODO Auto-generated method stub
-		
-	}
 }

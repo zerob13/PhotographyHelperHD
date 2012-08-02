@@ -1,8 +1,5 @@
 package in.zerob13.PhotographyHelper;
 
-import net.youmi.android.AdListener;
-import net.youmi.android.AdManager;
-import net.youmi.android.AdView;
 import android.app.Activity;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -13,28 +10,19 @@ import android.os.CountDownTimer;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class StopTime extends Activity  implements AdListener {
+public class StopTime extends Activity  {
 	 /** Called when the activity is first created. */
 	Button star;
 	CountDownTimer cot;
 	NumberPicker min,sec;
 	TextView countDown;
-	AdView adView;
-	static{
-	   	  
-		AdManager.init("50b2b2e52b464a6e ", "0149a2ee96a8fad1 ", 40, false,"0.8beta");
-    	
-    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stoptime);
-        adView=(AdView)findViewById(R.id.adStop);
-        adView.setAdListener(this);
         countDown=(TextView)findViewById(R.id.widget35);
         min=(NumberPicker)findViewById(R.id.widget40);
         sec=(NumberPicker)findViewById(R.id.widget41);
@@ -105,14 +93,5 @@ public class StopTime extends Activity  implements AdListener {
         });
 
     }
-	@Override
-	public void onConnectFailed() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void onReceiveAd() {
-		// TODO Auto-generated method stub
-		
-	}
+
 }

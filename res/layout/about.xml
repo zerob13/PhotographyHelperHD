@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout
-	xmlns:umadsdk="http://schemas.android.com/apk/res/in.zerob13.PhotographyHelper"
-	android:id="@+id/tab_demo_tv3" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-	
-	<net.youmi.android.AdView
-   android:id="@+id/adView"  
-   android:layout_width="wrap_content"  
-   android:layout_height="wrap_content"
-   umadsdk:textColor="#ffffff" 
-   umadsdk:backgroundTransparent="155"
-   umadsdk:backgroundColor="#808080"    
-   android:layout_x="0px"
-android:layout_y="0px"
-   /> 
-<TextView
-android:id="@+id/widget57"
-android:layout_width="wrap_content"
-android:text="TextView"
-android:textSize="50px"
-android:layout_x="0px"
-android:layout_y="87px"
-android:layout_height="wrap_content"/>
-</AbsoluteLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="50px" />
+
+</LinearLayout>

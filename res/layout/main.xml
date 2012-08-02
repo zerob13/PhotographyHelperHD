@@ -1,31 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout android:id="@+id/widget218"
-	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:umadsdk="http://schemas.android.com/apk/res/in.zerob13.PhotographyHelper">
-	<Button android:textSize="15px" android:id="@+id/widget63"
-		android:layout_width="100px" android:text="Button"
-		android:layout_height="100px" android:background="@drawable/washtimeb"
-		android:layout_x="141dip" android:layout_y="260dip"></Button>
-	<Button android:textSize="15px" android:id="@+id/widget61"
-		android:layout_width="100px" android:text="Button"
-		android:layout_height="100px" android:background="@drawable/dofcalb"
-		android:layout_x="553dip" android:layout_y="260dip"></Button>
-	<Button android:textSize="15px" android:id="@+id/widget65"
-		android:layout_width="100px" android:text="Button"
-		android:layout_height="100px" android:background="@drawable/stoptimeb"
-		android:layout_x="141dip" android:layout_y="468dip"></Button>
-	<Button android:textSize="15px" android:id="@+id/widget64"
-		android:layout_width="100px" android:text="Button"
-		android:layout_height="100px" android:background="@drawable/meterb"
-		android:layout_x="553dip" android:layout_y="468dip"></Button>
-	<Button android:textSize="15px" android:id="@+id/widget66"
-		android:layout_width="100px" android:text="Button"
-		android:layout_height="100px" android:background="@drawable/aboutb"
-		android:layout_x="141dip" android:layout_y="742dip"></Button>
-	<net.youmi.android.AdView android:id="@+id/adM"
-		android:layout_width="wrap_content" android:layout_height="wrap_content"
-		umadsdk:textColor="#ffffff" umadsdk:backgroundTransparent="155"
-		umadsdk:backgroundColor="#808080" android:layout_x="0px"
-		android:layout_y="1100px" />
-</AbsoluteLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+   	android:background="#639363"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="0dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:gravity="center" >
+<View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+        <Button
+            android:id="@+id/widget63"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_margin="20dip"
+            android:background="@drawable/washtimeb"
+            android:text="Button"
+            android:textSize="15dip" >
+        </Button>
+	<View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+        <Button
+            android:id="@+id/widget61"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_margin="20dip"
+            android:background="@drawable/dofcalb"
+            android:text="Button"
+            android:textSize="15dip" >
+        </Button>
+        <View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="0dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:gravity="center" >
+
+        <View
+            android:layout_width="0dip"
+         android:layout_weight="1"
+            android:layout_height="0dip" />
+
+        <Button
+            android:id="@+id/widget65"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_margin="20dip"
+            android:background="@drawable/stoptimeb"
+            android:text="Button"
+            android:textSize="15dip" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="0dip" />
+
+        <Button
+            android:id="@+id/widget64"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_margin="20dip"
+            android:background="@drawable/meterb"
+            android:text="Button"
+            android:textSize="15dip" >
+        </Button>
+
+        <View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="0dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:gravity="center" >
+	<View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+        <Button
+            android:id="@+id/widget66"
+            android:layout_width="67dip"
+            android:layout_height="67dip"
+            android:layout_margin="20dip"
+            android:background="@drawable/aboutb"
+            android:text="Button"
+            android:textSize="15dip" >
+        </Button>
+        <View
+            android:layout_width="0dip"
+           android:layout_weight="1"
+            android:layout_height="0dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,16 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-android:id="@+id/tab_demo_tv5"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-xmlns:android="http://schemas.android.com/apk/res/android"
->
-<AbsoluteLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/widget79">
-    <Spinner android:layout_y="9dip" android:id="@+id/widget70" android:layout_x="386dip" android:layout_width="292px" android:layout_height="87px"></Spinner>
-    <TextView android:textSize="26px" android:layout_width="185px" android:text="冲洗药剂" android:layout_height="50px" android:layout_y="207dip" android:layout_x="90dip" android:id="@+id/widget72"></TextView>
-    <Spinner android:layout_y="177dip" android:id="@+id/widget73" android:layout_x="388dip" android:layout_width="292px" android:layout_height="87px"></Spinner>
-    <TextView android:textSize="26px" android:layout_width="185px" android:text="胶片类型" android:layout_height="50px" android:id="@+id/widget71" android:layout_x="87dip" android:layout_y="27dip"></TextView>
-    <TextView android:text="show" android:id="@+id/widget74" android:textSize="26px" android:layout_width="480px" android:layout_height="fill_parent" android:layout_x="90dip" android:layout_y="386dip"></TextView>
-</AbsoluteLayout>
-</ScrollView>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_demo_tv5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/widget71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="胶片类型"
+                android:textSize="26px" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/widget70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/widget72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="冲洗药剂"
+                android:textSize="26px" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/widget73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/widget74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:text="show"
+                android:textSize="26px" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

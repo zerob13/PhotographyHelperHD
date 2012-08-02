@@ -48,16 +48,6 @@ android:layout_x="0px"
 android:layout_y="245px"
 android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="50px">
 </TextView>
-	<net.youmi.android.AdView
-   android:id="@+id/adMeter"  
-   android:layout_width="wrap_content"  
-   android:layout_height="wrap_content"
-   umadsdk:textColor="#ffffff" 
-   umadsdk:backgroundTransparent="155"
-   umadsdk:backgroundColor="#808080"    
-   android:layout_x="0px"
-android:layout_y="1100px"
-   />
 	<Spinner android:id="@+id/widget107" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="14dip"></Spinner>
 	<Spinner android:id="@+id/widget108" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="69dip"></Spinner>
 	<Spinner android:id="@+id/widget110" android:layout_width="250px" android:layout_height="48px" android:layout_x="437dip" android:layout_y="124dip"></Spinner>

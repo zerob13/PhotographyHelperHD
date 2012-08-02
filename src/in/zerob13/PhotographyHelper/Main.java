@@ -7,9 +7,6 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import net.youmi.android.AdListener;
-import net.youmi.android.AdManager;
-import net.youmi.android.AdView;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -20,12 +17,12 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.view.Window;
 import android.widget.Button;
 
-public class Main extends Activity implements AdListener {
+public class Main extends Activity  {
 	/** Called when the activity is first created. */
 	Button a, b, c, d, e;
 	OnTouchListener mub;
@@ -33,23 +30,14 @@ public class Main extends Activity implements AdListener {
 	ProgressDialog progressDialog;
 	Handler handler;
 	Thread aa;
-	AdView adView;
 	SQLiteDatabase sql;
-	static {
-
-		AdManager.init("50b2b2e52b464a6e ", "0149a2ee96a8fad1 ", 40, false,
-				"0.8beta");
-
-	}
-
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.main);
 		getWindow().setBackgroundDrawableResource(R.drawable.back);
-		adView = (AdView) findViewById(R.id.adM);
-		adView.setAdListener(this);
 		a = (Button) findViewById(R.id.widget61);
 		b = (Button) findViewById(R.id.widget63);
 		c = (Button) findViewById(R.id.widget64);
@@ -200,15 +188,5 @@ public class Main extends Activity implements AdListener {
 		}
 	}
 
-	@Override
-	public void onConnectFailed() {
-		// TODO Auto-generated method stub
 
-	}
-
-	@Override
-	public void onReceiveAd() {
-		// TODO Auto-generated method stub
-
-	}
 }
